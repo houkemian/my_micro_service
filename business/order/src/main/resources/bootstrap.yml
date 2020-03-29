@@ -1,0 +1,11 @@
+server:
+  port: 7080
+spring:
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://192.168.0.102:8888
+      name: common,rediskey,order
+  application:
+    name: order

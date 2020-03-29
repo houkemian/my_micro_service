@@ -1,0 +1,2 @@
+mybatis:
+  type-handlers-package: org.hkm.order.mybatis

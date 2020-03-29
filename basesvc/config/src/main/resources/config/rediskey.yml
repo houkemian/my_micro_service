@@ -1,0 +1,6 @@
+rediskey:
+  product:
+    skumap: sku
+    lock:
+      select: product:lock:select
+      stock: product:lock:stock

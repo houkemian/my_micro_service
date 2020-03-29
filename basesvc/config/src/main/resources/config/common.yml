@@ -1,0 +1,5 @@
+mybatis:
+  type-aliases-package: org.hkm.*.entity
+  configuration:
+    mapUnderscoreToCamelCase: true
+    logImpl: org.apache.ibatis.logging.log4j2.Log4j2Impl

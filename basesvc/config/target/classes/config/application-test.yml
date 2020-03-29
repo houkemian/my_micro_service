@@ -1,0 +1,16 @@
+hkm:
+  virtual:
+    host: 192.168.0.200
+
+
+spring:
+  application:
+    name: product
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.0.102:9000/eureka/
+mybatis:
+  type-aliases-package: org.hkm.*.entity
+  configuration:
+    mapUnderscoreToCamelCase: true
