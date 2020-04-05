@@ -1,5 +1,5 @@
 hkm:
-  virtual-host: 192.168.0.106
+  virtual-host: 192.168.3.30
   redis:
     master: redis://${hkm.virtual-host}:6379
     slaves:
@@ -20,6 +20,6 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://192.168.0.102:9000/eureka/
+      defaultZone: http://192.168.3.2:9000/eureka/
   instance:
     prefer-ip-address: true

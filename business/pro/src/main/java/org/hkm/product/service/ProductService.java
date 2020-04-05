@@ -1,5 +1,6 @@
 package org.hkm.product.service;
 
+import org.hkm.common.Result;
 import org.hkm.product.entity.ProductSKU;
 import org.redisson.api.RMap;
 
@@ -24,6 +25,6 @@ public interface ProductService {
 
     int getStockById(Long id);
 
-    int reduceStock(Long id, int num);
+    Result<Integer> reduceStock(Long id, int num);
 
 }

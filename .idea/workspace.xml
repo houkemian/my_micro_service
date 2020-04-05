@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0afd3691-1886-458d-aead-657474b92861" name="Default Changelist" comment="" />
+    <list default="true" id="0afd3691-1886-458d-aead-657474b92861" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basesvc/config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/basesvc/config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basesvc/config/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/basesvc/config/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basesvc/config/target/classes/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/basesvc/config/target/classes/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basesvc/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/basesvc/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basesvc/gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/basesvc/gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/feign/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/feign/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/controller/ProductSKUController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/controller/ProductSKUController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/service/impl/ProductSkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/service/impl/ProductSkuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/pro/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/pro/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/target/classes/bootstrap.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,9 +32,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,24 +48,29 @@
     </option>
   </component>
   <component name="ProjectId" id="1XsyQDAJHDlNW0jE16PXKwIO52S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/basesvc/gateway/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -58,13 +88,39 @@
       <recent name="C:\Users\houkemian\IdeaProjects\spring\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayStarter">
-    <configuration name="ProductStarter" type="Application" factoryName="Application" singleton="false" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.hkm.product.ProductStarter" />
-      <module name="pro" />
+  <component name="RunManager" selected="Spring Boot.ConfigServer">
+    <configuration name="Atoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hkm.algorithm.string.Atoi" />
+      <module name="data_structure&amp;algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hkm.product.*" />
+          <option name="PATTERN" value="org.hkm.algorithm.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeKLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hkm.tencent.MergeKLists" />
+      <module name="data_structure&amp;algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hkm.tencent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hkm.tencent.MergeTwoLists" />
+      <module name="data_structure&amp;algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hkm.tencent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,46 +201,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="gateway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hkm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hkm.GatewayStarter" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="order" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hkm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hkm.OrderStarter" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ProductStarter" />
+      <item itemvalue="Application.MergeTwoLists" />
+      <item itemvalue="Application.MergeKLists" />
+      <item itemvalue="Application.Atoi" />
       <item itemvalue="Spring Boot.EurekaStarter" />
-      <item itemvalue="Spring Boot.OrderStarter" />
       <item itemvalue="Spring Boot.ConfigServer" />
-      <item itemvalue="Spring Boot.GatewayStarter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GatewayStarter" />
-        <item itemvalue="Application.ProductStarter" />
         <item itemvalue="Spring Boot.ConfigServer" />
         <item itemvalue="Spring Boot.EurekaStarter" />
-        <item itemvalue="Spring Boot.OrderStarter" />
+        <item itemvalue="Application.Atoi" />
+        <item itemvalue="Application.MergeKLists" />
+        <item itemvalue="Application.MergeTwoLists" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +271,15 @@
       <workItem from="1585295164352" duration="9317000" />
       <workItem from="1585328594847" duration="11395000" />
       <workItem from="1585384333147" duration="7267000" />
-      <workItem from="1585503149463" duration="1973000" />
+      <workItem from="1585503149463" duration="5610000" />
+      <workItem from="1585588441553" duration="660000" />
+      <workItem from="1585639648307" duration="2136000" />
+      <workItem from="1585674961593" duration="7519000" />
+      <workItem from="1585721627410" duration="6143000" />
+      <workItem from="1585812022851" duration="7223000" />
+      <workItem from="1585897887075" duration="1820000" />
+      <workItem from="1586015529560" duration="13000" />
+      <workItem from="1586072661962" duration="1814000" />
     </task>
     <servers />
   </component>
@@ -265,14 +303,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585254819916" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585503796653">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586073899476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585503796653" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1585335914444">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586073899476" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1585732310654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585335914444" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585732310654" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585045014298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -281,54 +319,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583486534121" />
-    <state width="1877" height="483" key="GridCell.Tab.0.bottom" timestamp="1585504509387">
+    <state width="1877" height="211" key="GridCell.Tab.0.bottom" timestamp="1586073943541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585504509387" />
-    <state width="1877" height="483" key="GridCell.Tab.0.center" timestamp="1585504509386">
+    <state width="1877" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
+    <state width="1877" height="211" key="GridCell.Tab.0.center" timestamp="1586073943541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585504509386" />
-    <state width="1877" height="483" key="GridCell.Tab.0.left" timestamp="1585504509386">
+    <state width="1877" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
+    <state width="1877" height="211" key="GridCell.Tab.0.left" timestamp="1586073943540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585504509386" />
-    <state width="1877" height="483" key="GridCell.Tab.0.right" timestamp="1585504509387">
+    <state width="1877" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943540" />
+    <state width="1877" height="211" key="GridCell.Tab.0.right" timestamp="1586073943541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585504509387" />
-    <state width="1877" height="483" key="GridCell.Tab.1.bottom" timestamp="1585504509230">
+    <state width="1877" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
+    <state width="1877" height="211" key="GridCell.Tab.1.bottom" timestamp="1586073943541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585504509230" />
-    <state width="1877" height="483" key="GridCell.Tab.1.center" timestamp="1585504509230">
+    <state width="1877" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
+    <state width="1877" height="211" key="GridCell.Tab.1.center" timestamp="1586073943541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585504509230" />
-    <state width="1877" height="483" key="GridCell.Tab.1.left" timestamp="1585504509230">
+    <state width="1877" height="211" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
+    <state width="1877" height="211" key="GridCell.Tab.1.left" timestamp="1586073943541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585504509230" />
-    <state width="1877" height="483" key="GridCell.Tab.1.right" timestamp="1585504509230">
+    <state width="1877" height="211" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
+    <state width="1877" height="211" key="GridCell.Tab.1.right" timestamp="1586073943541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585504509230" />
-    <state width="1877" height="483" key="GridCell.Tab.2.bottom" timestamp="1585504509231">
+    <state width="1877" height="211" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
+    <state width="1877" height="483" key="GridCell.Tab.2.bottom" timestamp="1585660205710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585504509231" />
-    <state width="1877" height="483" key="GridCell.Tab.2.center" timestamp="1585504509231">
+    <state width="1877" height="483" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585660205710" />
+    <state width="1877" height="483" key="GridCell.Tab.2.center" timestamp="1585660205709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585504509231" />
-    <state width="1877" height="483" key="GridCell.Tab.2.left" timestamp="1585504509230">
+    <state width="1877" height="483" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585660205709" />
+    <state width="1877" height="483" key="GridCell.Tab.2.left" timestamp="1585660205709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585504509230" />
-    <state width="1877" height="483" key="GridCell.Tab.2.right" timestamp="1585504509231">
+    <state width="1877" height="483" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585660205709" />
+    <state width="1877" height="483" key="GridCell.Tab.2.right" timestamp="1585660205709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585504509231" />
+    <state width="1877" height="483" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585660205709" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1583520702337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -337,29 +375,65 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="621" y="285" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583486538879" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1585254621073">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585675213554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585254621073" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585503148758">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585675213554" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586072662138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585503148758" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586072662138" />
     <state x="506" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585504516113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="506" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1585504516113" />
-    <state x="334" y="215" key="new project wizard" timestamp="1585249378319">
+    <state x="334" y="215" key="new project wizard" timestamp="1585676637882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585249378319" />
+    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585676637882" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1585303399191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585303399191" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585504017421">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585815005195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585504017421" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585815005195" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/common/data_structure&amp;algorithm/src/main/java/org/hkm/data_structure/link/SingleLink.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/common/data_structure&amp;algorithm/src/main/java/org/hkm/data_structure/link/SingleLink.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/common/data_structure&amp;algorithm/src/main/java/org/hkm/tencent/AddTwoNumbers.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/common/data_structure&amp;algorithm/src/main/java/org/hkm/tencent/AddTwoNumbers.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="a.next.next.next" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring$SingleLink.ic" NAME="SingleLink Coverage Results" MODIFIED="1585732895087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.hkm.data_structure.*</FILTER>
+    </SUITE>
   </component>
 </project>

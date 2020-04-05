@@ -1,7 +1,9 @@
 package org.hkm.order.service.impl;
 
+import org.hkm.common.Result;
 import org.hkm.order.entity.Order;
 import org.hkm.order.entity.OrderGoods;
+import org.hkm.order.feign.ProductService;
 import org.hkm.order.mapper.OrderGoodsMapper;
 import org.hkm.order.mapper.OrderMapper;
 import org.hkm.order.service.OrderService;
@@ -25,9 +27,12 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private OrderGoodsMapper orderGoodsMapper;
 
+    @Autowired
+    private ProductService productService;
+
 
     @Override
-    public Long order(Long uid, Map<String, Integer> skus) {
+    public Result<Order> order(Long uid, Map<String, Integer> skus) {
 
         Order order = new Order();
 
@@ -46,6 +51,12 @@ public class OrderServiceImpl implements OrderService {
             // get sku's price
             // TODO amount += sku's price
             OrderGoods goods = new OrderGoods();
+
+            Result<Integer> result = productService.reduceStock(skuId, skus.get(skuIdStr));
+            if (!result.isSuccess()) {
+                return Result.failure();
+            }
+
             goods.setCount(skus.get(skuIdStr));
             goods.setSkuId(skuId);
             goodses.add(goods);
@@ -63,7 +74,7 @@ public class OrderServiceImpl implements OrderService {
         }
 
 
-        return order.getId();
+        return Result.success(order);
     }
 
 

@@ -12,10 +12,10 @@
         <module name="alibaba-nacos-config" />
         <module name="order" />
         <module name="alibaba-nacos" />
+        <module name="data_structure&amp;algorithm" />
         <module name="pro" />
         <module name="netfilx-eureka" />
         <module name="config" />
-        <module name="common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +39,7 @@
       <module name="business" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="config" options="-parameters" />
+      <module name="data_structure&amp;algorithm" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="netfile-eureka" options="-parameters" />

@@ -5,7 +5,7 @@ spring:
     active: dev
   cloud:
     config:
-      uri: http://192.168.0.102:8888
+      uri: http://192.168.3.28:8888
       name: common,rediskey,order
   application:
     name: order

@@ -1,15 +1,16 @@
 server:
   port: 9001
+ # port: 9011
 
 eureka:
   instance:
-    hostname: 192.168.0.102
+    hostname: 192.168.3.28
     prefer-ip-address: true
   client:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://192.168.0.102:9000/eureka/
+      defaultZone: http://192.168.3.28:9000/eureka/
 spring:
   cloud:
     gateway:

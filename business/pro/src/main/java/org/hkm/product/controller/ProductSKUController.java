@@ -1,6 +1,7 @@
 package org.hkm.product.controller;
 
 
+import org.hkm.common.Result;
 import org.hkm.product.entity.ProductSKU;
 import org.hkm.product.service.ProductService;
 import org.slf4j.Logger;
@@ -18,7 +19,7 @@ public class ProductSKUController {
     private ProductService productService;
 
     @PostMapping("/stock/{id}/reduce/{num}")
-    public int reduceStock(@PathVariable("id")Long id, @PathVariable("num")int num){
+    public Result<Integer> reduceStock(@PathVariable("id")Long id, @PathVariable("num")int num){
         return this.productService.reduceStock(id,num);
     }
 

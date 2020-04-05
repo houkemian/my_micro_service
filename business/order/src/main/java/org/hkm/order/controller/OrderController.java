@@ -2,6 +2,8 @@ package org.hkm.order.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.hkm.common.Result;
+import org.hkm.order.entity.Order;
 import org.hkm.order.feign.ProductService;
 import org.hkm.order.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,14 +20,11 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
-    @Autowired
-    private ProductService productService;
-
     /*
     {"1":{"1":3,"2":5}}
      */
     @PostMapping
-    public Long order(@RequestBody String body) {
+    public Result<Order> order(@RequestBody String body) {
 
         ObjectMapper mapper = new ObjectMapper();
         try {
@@ -40,7 +39,7 @@ public class OrderController {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-        return 0l;
+        return Result.failure();
 
     }
 

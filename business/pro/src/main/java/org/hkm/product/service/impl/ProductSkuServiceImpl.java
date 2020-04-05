@@ -4,6 +4,7 @@ import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.ZooKeeper;
+import org.hkm.common.Result;
 import org.hkm.config.RedisKey;
 import org.hkm.product.entity.ProductSKU;
 import org.hkm.product.mapper.ProductSkuMapper;
@@ -63,7 +64,7 @@ public class ProductSkuServiceImpl implements ProductService {
     }
 
     @Override
-    public int reduceStock(Long id, int num) {
+    public Result<Integer> reduceStock(Long id, int num) {
 
         RMap<String, Object> sku = getByIdFromCache(id);
 
@@ -76,14 +77,14 @@ public class ProductSkuServiceImpl implements ProductService {
             createSoldOutNode(id);
         } else if (soldOut) {
             logger.info("stoped by jvm cache");
-            return 0;
+            return Result.failure();
         }
 
 
         // stock not enough, no need to lock
         if (stock < num) {
             logger.info("stoped by first stock check");
-            return 0;
+            return Result.failure();
         }
 
         RLock lock = redisson.getLock(RedisKey.parseValue(redisKey.getProduct().getLock().getStock(), id));
@@ -91,14 +92,14 @@ public class ProductSkuServiceImpl implements ProductService {
             boolean locked = lock.tryLock(10, TimeUnit.SECONDS);
             if (!locked) {
                 logger.info("stoped by lock");
-                return 0;
+                return Result.failure();
             }
             // check if stock enough again
             sku = getByIdFromCache(id);
             stock = parseStock(sku);
             if (stock < num) {
                 logger.info("stoped by second stock check");
-                return 0;
+                return Result.failure();
             }
 
             // decrease stock
@@ -126,7 +127,7 @@ public class ProductSkuServiceImpl implements ProductService {
         } finally {
             lock.unlock();
         }
-        return num;
+        return Result.success();
     }
 
     private boolean getFromDB(long id, RMap<String, Object> cache) {
@@ -157,6 +158,7 @@ public class ProductSkuServiceImpl implements ProductService {
     }
 
     private RMap<String, Object> get(long id, int retry) {
+        logger.info("loading data id [{}]", id);
         // load from redis
         RMap<String, Object> skuMap = redisson.getMap(RedisKey.parseValue(redisKey.getProduct().getSkumap(), id));
         //load nothing from redis
