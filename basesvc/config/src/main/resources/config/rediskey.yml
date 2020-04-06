@@ -4,3 +4,5 @@ rediskey:
     lock:
       select: product:lock:select
       stock: product:lock:stock
+  order:
+    ordermap: order
