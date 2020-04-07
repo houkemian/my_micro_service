@@ -6,3 +6,4 @@ rediskey:
       stock: product:lock:stock
   order:
     ordermap: order
+    simplify: order:simplify
