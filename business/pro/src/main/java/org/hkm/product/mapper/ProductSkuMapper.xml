@@ -15,4 +15,8 @@
         update product_sku set stock=#{param.now}-#{param.reduce} where id=#{param.id} and stock=#{param.now}
     </update>
 
+    <update id="revertStock" parameterType="ProductSKU">
+        update product_sku set stock=#{stock} where id=#{id}
+    </update>
+
 </mapper>

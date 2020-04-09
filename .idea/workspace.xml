@@ -2,26 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0afd3691-1886-458d-aead-657474b92861" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basesvc/config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/basesvc/config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basesvc/config/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/basesvc/config/src/main/resources/config/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basesvc/config/target/classes/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/basesvc/config/target/classes/config/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basesvc/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/basesvc/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basesvc/gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/basesvc/gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/common/src/main/java/org/hkm/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/common/src/main/java/org/hkm/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/common/src/main/java/org/hkm/config/AppProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/common/src/main/java/org/hkm/config/AppProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/common/src/main/java/org/hkm/config/RedisKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/common/src/main/java/org/hkm/config/RedisKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/OrderStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/OrderStarter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/entity/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/feign/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/feign/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/mapper/OrderMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/order/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/order/target/classes/org/hkm/order/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/target/classes/org/hkm/order/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/ProductStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/ProductStarter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/controller/ProductSKUController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/controller/ProductSKUController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/mapper/ProductSkuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/mapper/ProductSkuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/mapper/ProductSkuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/mapper/ProductSkuMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/service/impl/ProductSkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/service/impl/ProductSkuServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/pro/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/pro/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/pro/target/classes/org/hkm/product/mapper/ProductSkuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/target/classes/org/hkm/product/mapper/ProductSkuMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +75,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/basesvc/gateway/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/business/tasks/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,26 +84,27 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.hkm.order.feign.entity" />
       <recent name="org.hkm.order.mybatis" />
       <recent name="org.hkm.order.mapper" />
       <recent name="org.hkm.order.repository" />
       <recent name="org.hkm" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\houkemian\IdeaProjects\spring\basesvc\gateway\src\main\resources" />
+      <recent name="C:\Users\houkemian\IdeaProjects\spring\business\tasks\src\main\resources" />
       <recent name="C:\Users\houkemian\IdeaProjects\spring\basesvc\config\src\main\resources\config" />
+      <recent name="C:\Users\houkemian\IdeaProjects\spring\basesvc\gateway\src\main\resources" />
       <recent name="C:\Users\houkemian\IdeaProjects\spring\business\order\src\main\resources" />
       <recent name="C:\Users\houkemian\IdeaProjects\spring\business\order\src\main\java\org\hkm\order\mapper" />
-      <recent name="C:\Users\houkemian\IdeaProjects\spring\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServer">
-    <configuration name="Atoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hkm.algorithm.string.Atoi" />
-      <module name="data_structure&amp;algorithm" />
+  <component name="RunManager" selected="Spring Boot.OrderStarter">
+    <configuration name="ProductStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hkm.product.ProductStarter" />
+      <module name="pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hkm.algorithm.string.*" />
+          <option name="PATTERN" value="org.hkm.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hkm.tencent.MergeKLists" />
-      <module name="data_structure&amp;algorithm" />
+    <configuration name="TaskStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hkm.tasks.TaskStarter" />
+      <module name="tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hkm.tencent.*" />
+          <option name="PATTERN" value="org.hkm.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hkm.tencent.MergeTwoLists" />
-      <module name="data_structure&amp;algorithm" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hkm.Test" />
+      <module name="common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hkm.tencent.*" />
+          <option name="PATTERN" value="org.hkm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,46 +185,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="config" />
+    <configuration name="OrderStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="order" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hkm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hkm.ConfigServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hkm.OrderStarter" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="netfilx-eureka" />
+    <configuration name="TaskStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hkm.*" />
+          <option name="PATTERN" value="org.hkm.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hkm.EurekaStarter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hkm.tasks.TaskStarter" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeTwoLists" />
-      <item itemvalue="Application.MergeKLists" />
-      <item itemvalue="Application.Atoi" />
-      <item itemvalue="Spring Boot.EurekaStarter" />
-      <item itemvalue="Spring Boot.ConfigServer" />
+      <item itemvalue="Application.TaskStarter" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ProductStarter" />
+      <item itemvalue="Spring Boot.OrderStarter" />
+      <item itemvalue="Spring Boot.TaskStarter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigServer" />
-        <item itemvalue="Spring Boot.EurekaStarter" />
-        <item itemvalue="Application.Atoi" />
-        <item itemvalue="Application.MergeKLists" />
-        <item itemvalue="Application.MergeTwoLists" />
+        <item itemvalue="Application.ProductStarter" />
+        <item itemvalue="Spring Boot.OrderStarter" />
+        <item itemvalue="Application.TaskStarter" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Spring Boot.TaskStarter" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +290,15 @@
       <workItem from="1585812022851" duration="7223000" />
       <workItem from="1585897887075" duration="1820000" />
       <workItem from="1586015529560" duration="13000" />
-      <workItem from="1586072661962" duration="1814000" />
+      <workItem from="1586072661962" duration="7702000" />
+      <workItem from="1586106750572" duration="5739000" />
+      <workItem from="1586162205713" duration="5921000" />
+      <workItem from="1586189713417" duration="9316000" />
+      <workItem from="1586250422768" duration="4089000" />
+      <workItem from="1586282247700" duration="5584000" />
+      <workItem from="1586337590037" duration="1133000" />
+      <workItem from="1586365489372" duration="2244000" />
+      <workItem from="1586412132255" duration="3215000" />
     </task>
     <servers />
   </component>
@@ -303,14 +322,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585254819916" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586073899476">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586076214887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586073899476" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1585732310654">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586076214887" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1586290008864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585732310654" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586290008864" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585045014298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -319,54 +338,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583486534121" />
-    <state width="1877" height="211" key="GridCell.Tab.0.bottom" timestamp="1586073943541">
+    <state width="1877" height="427" key="GridCell.Tab.0.bottom" timestamp="1586422351939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
-    <state width="1877" height="211" key="GridCell.Tab.0.center" timestamp="1586073943541">
+    <state width="1877" height="427" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351939" />
+    <state width="1877" height="427" key="GridCell.Tab.0.center" timestamp="1586422351939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
-    <state width="1877" height="211" key="GridCell.Tab.0.left" timestamp="1586073943540">
+    <state width="1877" height="427" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351939" />
+    <state width="1877" height="427" key="GridCell.Tab.0.left" timestamp="1586422351939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943540" />
-    <state width="1877" height="211" key="GridCell.Tab.0.right" timestamp="1586073943541">
+    <state width="1877" height="427" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351939" />
+    <state width="1877" height="427" key="GridCell.Tab.0.right" timestamp="1586422351939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
-    <state width="1877" height="211" key="GridCell.Tab.1.bottom" timestamp="1586073943541">
+    <state width="1877" height="427" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351939" />
+    <state width="1877" height="427" key="GridCell.Tab.1.bottom" timestamp="1586422351940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
-    <state width="1877" height="211" key="GridCell.Tab.1.center" timestamp="1586073943541">
+    <state width="1877" height="427" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351940" />
+    <state width="1877" height="427" key="GridCell.Tab.1.center" timestamp="1586422351940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
-    <state width="1877" height="211" key="GridCell.Tab.1.left" timestamp="1586073943541">
+    <state width="1877" height="427" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351940" />
+    <state width="1877" height="427" key="GridCell.Tab.1.left" timestamp="1586422351939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
-    <state width="1877" height="211" key="GridCell.Tab.1.right" timestamp="1586073943541">
+    <state width="1877" height="427" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351939" />
+    <state width="1877" height="427" key="GridCell.Tab.1.right" timestamp="1586422351940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586073943541" />
-    <state width="1877" height="483" key="GridCell.Tab.2.bottom" timestamp="1585660205710">
+    <state width="1877" height="427" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351940" />
+    <state width="1877" height="427" key="GridCell.Tab.2.bottom" timestamp="1586412815182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585660205710" />
-    <state width="1877" height="483" key="GridCell.Tab.2.center" timestamp="1585660205709">
+    <state width="1877" height="427" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586412815182" />
+    <state width="1877" height="427" key="GridCell.Tab.2.center" timestamp="1586412815182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585660205709" />
-    <state width="1877" height="483" key="GridCell.Tab.2.left" timestamp="1585660205709">
+    <state width="1877" height="427" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586412815182" />
+    <state width="1877" height="427" key="GridCell.Tab.2.left" timestamp="1586412815182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585660205709" />
-    <state width="1877" height="483" key="GridCell.Tab.2.right" timestamp="1585660205709">
+    <state width="1877" height="427" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586412815182" />
+    <state width="1877" height="427" key="GridCell.Tab.2.right" timestamp="1586412815182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="483" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585660205709" />
+    <state width="1877" height="427" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586412815182" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1583520702337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -379,49 +398,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585675213554" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586072662138">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586282249526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586072662138" />
-    <state x="506" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585504516113">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586282249526" />
+    <state x="506" y="256" width="892" height="566" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586108165545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1585504516113" />
-    <state x="334" y="215" key="new project wizard" timestamp="1585676637882">
+    <state x="506" y="256" width="892" height="566" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1586108165545" />
+    <state x="334" y="215" key="new project wizard" timestamp="1586117815945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585676637882" />
+    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586117815945" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1585303399191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585303399191" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585815005195">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586251588956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585815005195" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586251588956" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/business/common/data_structure&amp;algorithm/src/main/java/org/hkm/data_structure/link/SingleLink.java</url>
-          <line>136</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/business/common/data_structure&amp;algorithm/src/main/java/org/hkm/data_structure/link/SingleLink.java</url>
-          <line>123</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/business/common/data_structure&amp;algorithm/src/main/java/org/hkm/tencent/AddTwoNumbers.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/business/common/data_structure&amp;algorithm/src/main/java/org/hkm/tencent/AddTwoNumbers.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="13" />
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-logging/4.7.0/rocketmq-logging-4.7.0.jar!/org/apache/rocketmq/logging/Slf4jLoggerFactory.class</url>
+          <line>87</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

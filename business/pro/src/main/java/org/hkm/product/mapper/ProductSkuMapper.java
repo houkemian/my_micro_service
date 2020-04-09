@@ -14,4 +14,6 @@ public interface ProductSkuMapper {
     float getStockById(Long id);
 
     int updateStock(@Param("param") Map<String, Object> param);
+
+    int revertStock(ProductSKU sku);
 }

@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/basesvc/netfilx-config/pom.xml" />
         <option value="$PROJECT_DIR$/basesvc/reg/pom.xml" />
         <option value="$PROJECT_DIR$/basesvc/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/business/tasks/pom.xml" />
         <option value="$PROJECT_DIR$/myregister-center/pom.xml" />
         <option value="$PROJECT_DIR$/product/pom.xml" />
       </set>

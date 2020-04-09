@@ -44,11 +44,11 @@ public class ProductSkuServiceImpl implements ProductService {
     private static Map<Long, Boolean> soldOutLocalCache = new ConcurrentHashMap<>();
 
     @Override
-    public ProductSKU getById(Long id) {
+    public Result<ProductSKU> getById(Long id) {
         RMap<String, Object> skuMap = get(id, 0);
         ProductSKU sku = new ProductSKU();
         sku.entity(skuMap);
-        return sku;
+        return Result.success(sku);
     }
 
     @Override
@@ -73,7 +73,7 @@ public class ProductSkuServiceImpl implements ProductService {
         //sold out
         Boolean soldOut = soldOutLocalCache.get(id);
         if (soldOut == null) {
-            soldOutLocalCache.put(id, stock<=0);
+            soldOutLocalCache.put(id, stock <= 0);
             createSoldOutNode(id);
         } else if (soldOut) {
             logger.info("stoped by jvm cache");
@@ -127,6 +127,37 @@ public class ProductSkuServiceImpl implements ProductService {
         } finally {
             lock.unlock();
         }
+        return Result.success();
+    }
+
+    @Override
+    public Result revertStock(Long id, int num, int retry) {
+
+        RLock lock = redisson.getLock(RedisKey.parseValue(redisKey.getProduct().getLock().getStock(), id));
+
+
+        try {
+            boolean locked = lock.tryLock(60, 10, TimeUnit.SECONDS);
+            if (!locked) {
+                if (retry >= 5) {
+                    return Result.failure("revert stock [sku: "+id+", num: "+num+"] failure "+retry+" times");
+                }
+                Thread.sleep(3000);
+                revertStock(id, num, retry++);
+            } else {
+                RMap map = redisson.getMap(RedisKey.parseValue(redisKey.getProduct().getSkumap(), id));
+                Object stockObj = map.addAndGet("stock", num);
+                ProductSKU sku = new ProductSKU();
+                sku.setId(id);
+                sku.setStock(Float.parseFloat(stockObj.toString()));
+                this.productSkuMapper.revertStock(sku);
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
+
         return Result.success();
     }
 
@@ -219,7 +250,7 @@ public class ProductSkuServiceImpl implements ProductService {
 
         try {
             if (this.zk.exists(zkPath, true) == null) {
-                this.zk.create(zkPath,"false".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+                this.zk.create(zkPath, "false".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
             }
         } catch (KeeperException e) {
             e.printStackTrace();

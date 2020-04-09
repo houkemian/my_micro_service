@@ -29,7 +29,7 @@ public class ProductSKUController {
     }
 
     @GetMapping("{id}")
-    public ProductSKU get(@PathVariable("id") Long id) {
+    public Result<ProductSKU> get(@PathVariable("id") Long id) {
         return productService.getById(id);
     }
 

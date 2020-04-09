@@ -12,6 +12,7 @@ public class RedisKey {
     }
 
     private ProductKeys product;
+    private OrderKeys order;
 
     @Data
     public static class ProductKeys {
@@ -23,7 +24,17 @@ public class RedisKey {
             private String select;
             private String stock;
         }
+    }
 
+    @Data
+    public static class OrderKeys {
+        private String ordermap;
+        private String simplify;
+        private Lock lock;
+
+        @Data
+        public static class Lock {
+        }
     }
 
 }

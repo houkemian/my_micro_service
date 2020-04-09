@@ -14,7 +14,7 @@ public interface ProductService {
      * @param id
      * @return ProductSKU
      */
-    ProductSKU getById(Long id);
+    Result<ProductSKU> getById(Long id);
 
     /**
      *
@@ -26,5 +26,7 @@ public interface ProductService {
     int getStockById(Long id);
 
     Result<Integer> reduceStock(Long id, int num);
+
+    Result revertStock(Long id, int num, int retry);
 
 }

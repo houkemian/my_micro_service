@@ -11,7 +11,9 @@ public class BaseEntity {
         for (Field f : fields) {
             f.setAccessible(true);
             try {
-                map.put(f.getName(), f.get(this));
+                if (f.get(this) != null) {
+                    map.put(f.getName(), f.get(this));
+                }
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }

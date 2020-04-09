@@ -13,5 +13,6 @@
     <file url="file://$PROJECT_DIR$/business/common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/business/order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/business/pro/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/tasks/src/main/java" charset="UTF-8" />
   </component>
 </project>

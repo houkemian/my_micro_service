@@ -3,6 +3,17 @@
 <mapper namespace="org.hkm.order.mapper.OrderMapper">
 
 
+    <resultMap id="baseMap" type="Order">
+        <id column="id" property="id" />
+        <result column="order_no" property="orderNo"/>
+        <result column="u_id" property="orderNo"/>
+        <result column="discount_type" property="discountType" typeHandler="org.hkm.order.mybatis.OrderDiscountTypeTypeHandler"/>
+        <result column="state" property="state" typeHandler="org.hkm.order.mybatis.OrderStateTypeHandler"/>
+        <result column="create_time" property="createTime"/>
+        <result column="pay_time" property="payTime"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
     <insert id="insertOrder" parameterType="Order" keyProperty="id" useGeneratedKeys="true">
         INSERT INTO orders (order_no, u_id, amount,value,discount,discount_type,state,create_time,pay_time,update_time)
         VALUES
@@ -11,5 +22,15 @@
         #{state,typeHandler=org.hkm.order.mybatis.OrderStateTypeHandler},
         #{createTime},#{payTime},#{updateTime})
     </insert>
+
+    <select id="findById" parameterType="long" resultMap="baseMap">
+
+        select * from orders where id=#{id}
+
+    </select>
+
+    <update id="updateState" parameterType="Order">
+        update orders set state=#{state, typeHandler=org.hkm.order.mybatis.OrderStateTypeHandler} where id=#{id}
+    </update>
 
 </mapper>

@@ -43,5 +43,15 @@ public class OrderController {
 
     }
 
+    @GetMapping("/{id}")
+    public Result<Order> get(@PathVariable("id") Long id) {
+        return this.orderService.getById(id);
+    }
+
+    @GetMapping("/{id}/state")
+    public Result<Order.State> getState(@PathVariable("id") Long id) {
+        return this.orderService.getStateById(id);
+    }
+
 
 }

@@ -11,11 +11,11 @@
         <module name="gateway" />
         <module name="alibaba-nacos-config" />
         <module name="order" />
-        <module name="alibaba-nacos" />
         <module name="data_structure&amp;algorithm" />
         <module name="pro" />
         <module name="netfilx-eureka" />
         <module name="config" />
+        <module name="alibaba-nacos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +27,7 @@
       <module name="prod" target="1.7" />
       <module name="product" target="1.7" />
       <module name="reg" target="1.8" />
+      <module name="tasks" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -52,6 +53,7 @@
       <module name="product" options="-parameters" />
       <module name="reg" options="-parameters" />
       <module name="spring" options="-parameters" />
+      <module name="tasks" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>

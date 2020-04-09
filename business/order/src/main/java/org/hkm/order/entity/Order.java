@@ -34,13 +34,6 @@ public class Order extends BaseEntity {
 
     private State state;
 
-    @Override
-    public void entity(Map<String, Object> map) {
-        super.entity(map);
-        this.discountType = DiscountType.discountType(Integer.parseInt(map.get("discount").toString()));
-        this.state = State.state(Integer.parseInt(map.get("state").toString()));
-    }
-
     /**
      * 订单状态
      */
@@ -90,6 +83,8 @@ public class Order extends BaseEntity {
         COUPON(1),
         // 折扣
         DISCOUNT(2),
+        // 一口价/秒杀
+        FIXED(3),
         // 满减
         OVERFLOW(0),
         // 无
