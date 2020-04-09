@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0afd3691-1886-458d-aead-657474b92861" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/common/src/main/java/org/hkm/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/common/src/main/java/org/hkm/base/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/common/src/main/java/org/hkm/config/AppProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/common/src/main/java/org/hkm/config/AppProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/common/src/main/java/org/hkm/config/RedisKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/common/src/main/java/org/hkm/config/RedisKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/OrderStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/OrderStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/feign/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/feign/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/mapper/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/java/org/hkm/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/order/target/classes/org/hkm/order/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/order/target/classes/org/hkm/order/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/ProductStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/ProductStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/controller/ProductSKUController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/controller/ProductSKUController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/mapper/ProductSkuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/mapper/ProductSkuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/mapper/ProductSkuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/mapper/ProductSkuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/service/impl/ProductSkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/java/org/hkm/product/service/impl/ProductSkuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/pro/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/pro/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/pro/target/classes/org/hkm/product/mapper/ProductSkuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pro/target/classes/org/hkm/product/mapper/ProductSkuMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +272,7 @@
       <workItem from="1586282247700" duration="5584000" />
       <workItem from="1586337590037" duration="1133000" />
       <workItem from="1586365489372" duration="2244000" />
-      <workItem from="1586412132255" duration="3215000" />
+      <workItem from="1586412132255" duration="3340000" />
     </task>
     <servers />
   </component>
@@ -338,54 +312,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583486534121" />
-    <state width="1877" height="427" key="GridCell.Tab.0.bottom" timestamp="1586422351939">
+    <state width="1877" height="427" key="GridCell.Tab.0.bottom" timestamp="1586422467600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351939" />
-    <state width="1877" height="427" key="GridCell.Tab.0.center" timestamp="1586422351939">
+    <state width="1877" height="427" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586422467600" />
+    <state width="1877" height="427" key="GridCell.Tab.0.center" timestamp="1586422467600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351939" />
-    <state width="1877" height="427" key="GridCell.Tab.0.left" timestamp="1586422351939">
+    <state width="1877" height="427" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586422467600" />
+    <state width="1877" height="427" key="GridCell.Tab.0.left" timestamp="1586422467600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351939" />
-    <state width="1877" height="427" key="GridCell.Tab.0.right" timestamp="1586422351939">
+    <state width="1877" height="427" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586422467600" />
+    <state width="1877" height="427" key="GridCell.Tab.0.right" timestamp="1586422467600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351939" />
-    <state width="1877" height="427" key="GridCell.Tab.1.bottom" timestamp="1586422351940">
+    <state width="1877" height="427" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586422467600" />
+    <state width="1877" height="427" key="GridCell.Tab.1.bottom" timestamp="1586422467600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351940" />
-    <state width="1877" height="427" key="GridCell.Tab.1.center" timestamp="1586422351940">
+    <state width="1877" height="427" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586422467600" />
+    <state width="1877" height="427" key="GridCell.Tab.1.center" timestamp="1586422467600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351940" />
-    <state width="1877" height="427" key="GridCell.Tab.1.left" timestamp="1586422351939">
+    <state width="1877" height="427" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586422467600" />
+    <state width="1877" height="427" key="GridCell.Tab.1.left" timestamp="1586422467600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351939" />
-    <state width="1877" height="427" key="GridCell.Tab.1.right" timestamp="1586422351940">
+    <state width="1877" height="427" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586422467600" />
+    <state width="1877" height="427" key="GridCell.Tab.1.right" timestamp="1586422467600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586422351940" />
-    <state width="1877" height="427" key="GridCell.Tab.2.bottom" timestamp="1586412815182">
+    <state width="1877" height="427" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586422467600" />
+    <state width="1877" height="427" key="GridCell.Tab.2.bottom" timestamp="1586422467601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586412815182" />
-    <state width="1877" height="427" key="GridCell.Tab.2.center" timestamp="1586412815182">
+    <state width="1877" height="427" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586422467601" />
+    <state width="1877" height="427" key="GridCell.Tab.2.center" timestamp="1586422467601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586412815182" />
-    <state width="1877" height="427" key="GridCell.Tab.2.left" timestamp="1586412815182">
+    <state width="1877" height="427" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586422467601" />
+    <state width="1877" height="427" key="GridCell.Tab.2.left" timestamp="1586422467600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586412815182" />
-    <state width="1877" height="427" key="GridCell.Tab.2.right" timestamp="1586412815182">
+    <state width="1877" height="427" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586422467600" />
+    <state width="1877" height="427" key="GridCell.Tab.2.right" timestamp="1586422467601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586412815182" />
+    <state width="1877" height="427" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586422467601" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1583520702337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
